@@ -15,6 +15,7 @@ import zio.schema.codec.DecodeError.ReadError
 import zio.schema.codec.JsonCodec.JsonEncoder.charSequenceToByteChunk
 import zio.schema.codec.JsonCodecSpec.PaymentMethod.{ CreditCard, PayPal, WireTransfer }
 import zio.schema.codec.JsonCodecSpec.Subscription.{ OneTime, Recurring }
+import zio.schema.testdata.common._
 import zio.schema.meta.MetaSchema
 import zio.stream.ZStream
 import zio.test.Assertion._
@@ -25,12 +26,24 @@ object JsonCodecSpec extends ZIOSpecDefault {
 
   def spec: Spec[TestEnvironment, Any] =
     suite("JsonCodec Spec")(
+      schemaSuite,
       encoderSuite,
       decoderSuite,
       encoderDecoderSuite
     ) @@ timeout(90.seconds)
 
   // TODO: Add tests for the pipeline contract.
+  private val schemaSuite = suite("schema encoding")(
+    suite("schema" {
+      test("encodes string only enum as json enum") {
+        val schema = Shared.c1(JsonAnnotations.name("MyEnum"))
+
+        val result = JsonCodec.jsonCodec(schema) //#todo align names to AvroCodec.encode
+
+        val expected = """{"type":"enum","name":"MyEnum","symbols":["A","B","C"]}"""
+        assert(result)(isRight(equalTo(expected)))
+      }
+    }))
 
   private val encoderSuite = suite("encoding")(
     suite("primitive")(

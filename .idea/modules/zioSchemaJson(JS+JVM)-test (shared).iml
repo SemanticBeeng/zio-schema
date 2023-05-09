@@ -15,8 +15,8 @@
       <sourceFolder url="file://$MODULE_DIR$/../../zio-schema-json/shared/src/test/scala-2" isTestSource="true" />
     </content>
     <content url="file://$MODULE_DIR$/../../zio-schema-json/shared/src/test/scala-2.13" />
-    <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="TEST" name="BSP: /development/tmp/.coursier/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0" level="project" />
     <orderEntry type="library" scope="TEST" name="BSP: izumi-reflect-thirdparty-boopickle-shaded_2.13-2.2.5" level="project" />
     <orderEntry type="library" scope="TEST" name="BSP: izumi-reflect_2.13-2.2.5" level="project" />
@@ -73,5 +73,9 @@
       </library>
     </orderEntry>
     <orderEntry type="library" scope="TEST" name="BSP: zio_2.13-2.0.10" level="project" />
+    <orderEntry type="module" module-name="zioSchemaJson(JS+JVM) (shared)" />
+    <orderEntry type="module" module-name="tests(JS+JVM)-test (shared)" />
+    <orderEntry type="module" module-name="zioSchema(JS+JVM) (shared)" />
+    <orderEntry type="module" module-name="zioSchema(JS+JVM)-test (shared)" />
   </component>
 </module>
