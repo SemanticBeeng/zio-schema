@@ -1,16 +1,15 @@
 package zio.schema.codec
 
 import java.util.UUID
-
 import scala.collection.immutable.ListMap
 import scala.util.Try
-
 import zio.schema.Schema._
 import zio.schema._
-import zio.schema.codec.AvroAnnotations.{ BytesType, DecimalType, FieldOrderType }
+import zio.schema.codec.AvroAnnotations.{BytesType, DecimalType, FieldOrderType}
+import zio.schema.testdata.common._
 import zio.test.Assertion._
 import zio.test._
-import zio.{ Chunk, Scope }
+import zio.{Chunk, Scope}
 
 object AvroCodecSpec extends ZIOSpecDefault {
   import AssertionHelper._
@@ -21,28 +20,7 @@ object AvroCodecSpec extends ZIOSpecDefault {
       suite("encode")(
         suite("enum")(
           test("encodes string only enum as avro enum") {
-            val caseA = Schema.Case[String, String](
-              "A",
-              Schema.primitive(StandardType.StringType),
-              identity,
-              identity,
-              _.isInstanceOf[String]
-            )
-            val caseB = Schema.Case[String, String](
-              "B",
-              Schema.primitive(StandardType.StringType),
-              identity,
-              identity,
-              _.isInstanceOf[String]
-            )
-            val caseC = Schema.Case[String, String](
-              "C",
-              Schema.primitive(StandardType.StringType),
-              identity,
-              identity,
-              _.isInstanceOf[String]
-            )
-            val schema = Schema.Enum3(TypeId.Structural, caseA, caseB, caseC, Chunk(AvroAnnotations.name("MyEnum")))
+            val schema = Shared.c1(AvroAnnotations.name("MyEnum"))
 
             val result = AvroCodec.encode(schema)
 

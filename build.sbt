@@ -220,7 +220,7 @@ lazy val zioSchemaMsgPackJVM = zioSchemaMsgPack.jvm
 
 lazy val zioSchemaAvro = crossProject(JSPlatform, JVMPlatform)
   .in(file("zio-schema-avro"))
-  .dependsOn(zioSchema, zioSchemaDerivation, tests % "test->test")
+  .dependsOn(zioSchema % "test->test", zioSchemaDerivation, tests % "test->test")
   .settings(stdSettings("zio-schema-avro"))
   .settings(crossProjectSettings)
   .settings(buildInfoSettings("zio.schema.avro"))
