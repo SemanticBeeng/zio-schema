@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="BSP: sbt-crossproject-1.3.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/portable-scala/sbt-crossproject_2.12_1.0/1.3.0/sbt-crossproject-1.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

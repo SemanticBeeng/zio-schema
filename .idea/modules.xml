@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/benchmarks.iml" filepath="$PROJECT_DIR$/.idea/modules/benchmarks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/docs.iml" filepath="$PROJECT_DIR$/.idea/modules/docs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/root.iml" filepath="$PROJECT_DIR$/.idea/modules/root.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/root-build.iml" filepath="$PROJECT_DIR$/.idea/modules/root-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tests(JS+JVM) (shared).iml" filepath="$PROJECT_DIR$/.idea/modules/tests(JS+JVM) (shared).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tests(JS+JVM)-test (shared).iml" filepath="$PROJECT_DIR$/.idea/modules/tests(JS+JVM)-test (shared).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/testsJS.iml" filepath="$PROJECT_DIR$/.idea/modules/testsJS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/testsJVM.iml" filepath="$PROJECT_DIR$/.idea/modules/testsJVM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zioSchema(JS+JVM) (shared).iml" filepath="$PROJECT_DIR$/.idea/modules/zioSchema(JS+JVM) (shared).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zioSchema(JS+JVM)-test (shared).iml" filepath="$PROJECT_DIR$/.idea/modules/zioSchema(JS+JVM)-test (shared).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zioSchemaAvro(JS+JVM) (shared).iml" filepath="$PROJECT_DIR$/.idea/modules/zioSchemaAvro(JS+JVM) (shared).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zioSchemaAvro(JS+JVM)-test (shared).iml" filepath="$PROJECT_DIR$/.idea/modules/zioSchemaAvro(JS+JVM)-test (shared).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zioSchemaAvroJS.iml" filepath="$PROJECT_DIR$/.idea/modules/zioSchemaAvroJS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zioSchemaAvroJVM.iml" filepath="$PROJECT_DIR$/.idea/modules/zioSchemaAvroJVM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zioSchemaDerivation(JS+JVM) (shared).iml" filepath="$PROJECT_DIR$/.idea/modules/zioSchemaDerivation(JS+JVM) (shared).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zioSchemaDerivation(JS+JVM)-test (shared).iml" filepath="$PROJECT_DIR$/.idea/modules/zioSchemaDerivation(JS+JVM)-test (shared).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zioSchemaDerivationJS.iml" filepath="$PROJECT_DIR$/.idea/modules/zioSchemaDerivationJS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zioSchemaDerivationJVM.iml" filepath="$PROJECT_DIR$/.idea/modules/zioSchemaDerivationJVM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zioSchemaExamples(JS+JVM) (shared).iml" filepath="$PROJECT_DIR$/.idea/modules/zioSchemaExamples(JS+JVM) (shared).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zioSchemaExamples(JS+JVM)-test (shared).iml" filepath="$PROJECT_DIR$/.idea/modules/zioSchemaExamples(JS+JVM)-test (shared).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zioSchemaExamplesJS.iml" filepath="$PROJECT_DIR$/.idea/modules/zioSchemaExamplesJS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zioSchemaExamplesJVM.iml" filepath="$PROJECT_DIR$/.idea/modules/zioSchemaExamplesJVM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zioSchemaJS.iml" filepath="$PROJECT_DIR$/.idea/modules/zioSchemaJS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zioSchemaJVM.iml" filepath="$PROJECT_DIR$/.idea/modules/zioSchemaJVM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zioSchemaJson(JS+JVM) (shared).iml" filepath="$PROJECT_DIR$/.idea/modules/zioSchemaJson(JS+JVM) (shared).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zioSchemaJson(JS+JVM)-test (shared).iml" filepath="$PROJECT_DIR$/.idea/modules/zioSchemaJson(JS+JVM)-test (shared).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zioSchemaJsonJS.iml" filepath="$PROJECT_DIR$/.idea/modules/zioSchemaJsonJS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zioSchemaJsonJVM.iml" filepath="$PROJECT_DIR$/.idea/modules/zioSchemaJsonJVM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zioSchemaMacros(JS+JVM) (shared).iml" filepath="$PROJECT_DIR$/.idea/modules/zioSchemaMacros(JS+JVM) (shared).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zioSchemaMacros(JS+JVM)-test (shared).iml" filepath="$PROJECT_DIR$/.idea/modules/zioSchemaMacros(JS+JVM)-test (shared).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zioSchemaMacrosJS.iml" filepath="$PROJECT_DIR$/.idea/modules/zioSchemaMacrosJS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zioSchemaMacrosJVM.iml" filepath="$PROJECT_DIR$/.idea/modules/zioSchemaMacrosJVM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zioSchemaMsgPack(JS+JVM) (shared).iml" filepath="$PROJECT_DIR$/.idea/modules/zioSchemaMsgPack(JS+JVM) (shared).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zioSchemaMsgPack(JS+JVM)-test (shared).iml" filepath="$PROJECT_DIR$/.idea/modules/zioSchemaMsgPack(JS+JVM)-test (shared).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zioSchemaMsgPackJS.iml" filepath="$PROJECT_DIR$/.idea/modules/zioSchemaMsgPackJS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zioSchemaMsgPackJVM.iml" filepath="$PROJECT_DIR$/.idea/modules/zioSchemaMsgPackJVM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zioSchemaOptics(JS+JVM) (shared).iml" filepath="$PROJECT_DIR$/.idea/modules/zioSchemaOptics(JS+JVM) (shared).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zioSchemaOptics(JS+JVM)-test (shared).iml" filepath="$PROJECT_DIR$/.idea/modules/zioSchemaOptics(JS+JVM)-test (shared).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zioSchemaOpticsJS.iml" filepath="$PROJECT_DIR$/.idea/modules/zioSchemaOpticsJS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zioSchemaOpticsJVM.iml" filepath="$PROJECT_DIR$/.idea/modules/zioSchemaOpticsJVM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zioSchemaProtobuf(JS+JVM) (shared).iml" filepath="$PROJECT_DIR$/.idea/modules/zioSchemaProtobuf(JS+JVM) (shared).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zioSchemaProtobuf(JS+JVM)-test (shared).iml" filepath="$PROJECT_DIR$/.idea/modules/zioSchemaProtobuf(JS+JVM)-test (shared).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zioSchemaProtobufJS.iml" filepath="$PROJECT_DIR$/.idea/modules/zioSchemaProtobufJS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zioSchemaProtobufJVM.iml" filepath="$PROJECT_DIR$/.idea/modules/zioSchemaProtobufJVM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zioSchemaThrift(JS+JVM) (shared).iml" filepath="$PROJECT_DIR$/.idea/modules/zioSchemaThrift(JS+JVM) (shared).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zioSchemaThrift(JS+JVM)-test (shared).iml" filepath="$PROJECT_DIR$/.idea/modules/zioSchemaThrift(JS+JVM)-test (shared).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zioSchemaThriftJS.iml" filepath="$PROJECT_DIR$/.idea/modules/zioSchemaThriftJS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zioSchemaThriftJVM.iml" filepath="$PROJECT_DIR$/.idea/modules/zioSchemaThriftJVM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zioSchemaZioTest(JS+JVM) (shared).iml" filepath="$PROJECT_DIR$/.idea/modules/zioSchemaZioTest(JS+JVM) (shared).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zioSchemaZioTest(JS+JVM)-test (shared).iml" filepath="$PROJECT_DIR$/.idea/modules/zioSchemaZioTest(JS+JVM)-test (shared).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zioSchemaZioTestJS.iml" filepath="$PROJECT_DIR$/.idea/modules/zioSchemaZioTestJS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zioSchemaZioTestJVM.iml" filepath="$PROJECT_DIR$/.idea/modules/zioSchemaZioTestJVM.iml" />
+    </modules>
+  </component>
+</project>

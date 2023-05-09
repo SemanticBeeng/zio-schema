@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="BSP: caffeine-2.8.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/project/.boot/scala-2.12.17/org.scala-sbt/sbt/1.8.2/caffeine-2.8.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

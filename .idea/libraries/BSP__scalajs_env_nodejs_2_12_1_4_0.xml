@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="BSP: scalajs-env-nodejs_2.12-1.4.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scala-js/scalajs-env-nodejs_2.12/1.4.0/scalajs-env-nodejs_2.12-1.4.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

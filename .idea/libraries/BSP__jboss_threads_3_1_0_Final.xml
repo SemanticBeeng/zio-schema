@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="BSP: jboss-threads-3.1.0.Final">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/jboss/threads/jboss-threads/3.1.0.Final/jboss-threads-3.1.0.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/jboss/threads/jboss-threads/3.1.0.Final/jboss-threads-3.1.0.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

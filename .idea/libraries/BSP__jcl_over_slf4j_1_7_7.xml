@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="BSP: jcl-over-slf4j-1.7.7">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.7/jcl-over-slf4j-1.7.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="BSP: zio_2.13-2.0.10">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/dev/zio/zio_2.13/2.0.10/zio_2.13-2.0.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/dev/zio/zio_2.13/2.0.10/zio_2.13-2.0.10-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

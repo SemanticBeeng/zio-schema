@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="BSP: sbt-jmh-0.4.3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/pl/project13/scala/sbt-jmh_2.12_1.0/0.4.3/sbt-jmh-0.4.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="BSP: zio-prelude_2.13-1.0.0-RC18">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/dev/zio/zio-prelude_2.13/1.0.0-RC18/zio-prelude_2.13-1.0.0-RC18.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/dev/zio/zio-prelude_2.13/1.0.0-RC18/zio-prelude_2.13-1.0.0-RC18-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -319,8 +319,8 @@ proguard/
 captures/
 
 # IntelliJ
-*.iml
-.idea
+# *.iml
+# .idea
 
 # Keystore files
 # Uncomment the following line if you do not want to check your keystore files in.
@@ -411,6 +411,9 @@ project/metals.sbt
 .bloop/
 .bsp/
 project/secret
+project/.boot/
+project/.ivy/
+project/.sbtboot/
 
 # mdoc
 website/node_modules

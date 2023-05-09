@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="BSP: sbt-git-2.0.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/com/github/sbt/sbt-git_2.12_1.0/2.0.0/sbt-git-2.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

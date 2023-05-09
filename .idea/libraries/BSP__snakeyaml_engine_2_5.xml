@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="BSP: snakeyaml-engine-2.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/snakeyaml/snakeyaml-engine/2.5/snakeyaml-engine-2.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="BSP: jna-5.12.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.12.1/jna-5.12.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

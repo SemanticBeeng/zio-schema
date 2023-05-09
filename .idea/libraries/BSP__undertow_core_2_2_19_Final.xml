@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="BSP: undertow-core-2.2.19.Final">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/io/undertow/undertow-core/2.2.19.Final/undertow-core-2.2.19.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/io/undertow/undertow-core/2.2.19.Final/undertow-core-2.2.19.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

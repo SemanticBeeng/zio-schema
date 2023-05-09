@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="BSP: util-cache_2.12-1.8.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/project/.boot/scala-2.12.17/org.scala-sbt/sbt/1.8.2/util-cache_2.12-1.8.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="BSP: pdfbox-2.0.16">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/apache/pdfbox/pdfbox/2.0.16/pdfbox-2.0.16.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/apache/pdfbox/pdfbox/2.0.16/pdfbox-2.0.16-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

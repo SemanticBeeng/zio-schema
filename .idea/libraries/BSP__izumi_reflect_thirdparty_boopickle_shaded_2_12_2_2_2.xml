@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="BSP: izumi-reflect-thirdparty-boopickle-shaded_2.12-2.2.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/dev/zio/izumi-reflect-thirdparty-boopickle-shaded_2.12/2.2.2/izumi-reflect-thirdparty-boopickle-shaded_2.12-2.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="BSP: sbt-scalajs-1.13.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scala-js/sbt-scalajs_2.12_1.0/1.13.1/sbt-scalajs-1.13.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

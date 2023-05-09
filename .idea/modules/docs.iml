@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="file:$MODULE_DIR$/../../#docs/Compile" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="BSP" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../zio-schema-docs/target/scala-2.13/classes" />
+    <output-test url="file://$MODULE_DIR$/../../zio-schema-docs/target/scala-2.13/test-classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../zio-schema-docs">
+      <sourceFolder url="file://$MODULE_DIR$/../../zio-schema-docs/target/scala-2.13/resource_managed/main" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="TEST" name="BSP: /development/tmp/.coursier/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0" level="project" />
+    <orderEntry type="library" name="BSP: annotations-15.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: annotations-15.0" level="project" />
+    <orderEntry type="library" name="BSP: autolink-0.6.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: autolink-0.6.0" level="project" />
+    <orderEntry type="library" name="BSP: common_2.13-4.6.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: common_2.13-4.6.0" level="project" />
+    <orderEntry type="library" name="BSP: commons-logging-1.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: commons-logging-1.2" level="project" />
+    <orderEntry type="library" name="BSP: config-1.4.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: config-1.4.1" level="project" />
+    <orderEntry type="library" name="BSP: diffutils-1.3.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: diffutils-1.3.0" level="project" />
+    <orderEntry type="library" name="BSP: directory-watcher-0.16.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: directory-watcher-0.16.1" level="project" />
+    <orderEntry type="module-library">
+      <library name="BSP: docs dependencies">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../../../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.8/4.6.0/semanticdb-scalac_2.13.8-4.6.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../../../tmp/.coursier/https/repo1.maven.org/maven2/org/typelevel/kind-projector_2.13.8/0.13.2/kind-projector_2.13.8-0.13.2-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="BSP: docs test dependencies">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../../../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.8/4.6.0/semanticdb-scalac_2.13.8-4.6.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../../../tmp/.coursier/https/repo1.maven.org/maven2/org/typelevel/kind-projector_2.13.8/0.13.2/kind-projector_2.13.8-0.13.2-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="BSP: fansi_2.13-0.4.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: fansi_2.13-0.4.0" level="project" />
+    <orderEntry type="library" name="BSP: fastparse-v2_2.13-2.3.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: fastparse-v2_2.13-2.3.1" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-all-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-all-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-ext-abbreviation-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-ext-abbreviation-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-ext-admonition-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-ext-admonition-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-ext-anchorlink-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-ext-anchorlink-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-ext-aside-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-ext-aside-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-ext-attributes-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-ext-attributes-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-ext-autolink-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-ext-autolink-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-ext-definition-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-ext-definition-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-ext-emoji-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-ext-emoji-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-ext-enumerated-reference-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-ext-enumerated-reference-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-ext-escaped-character-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-ext-escaped-character-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-ext-footnotes-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-ext-footnotes-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-ext-gfm-issues-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-ext-gfm-issues-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-ext-gfm-strikethrough-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-ext-gfm-strikethrough-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-ext-gfm-tasklist-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-ext-gfm-tasklist-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-ext-gfm-users-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-ext-gfm-users-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-ext-gitlab-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-ext-gitlab-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-ext-ins-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-ext-ins-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-ext-jekyll-front-matter-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-ext-jekyll-front-matter-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-ext-jekyll-tag-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-ext-jekyll-tag-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-ext-macros-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-ext-macros-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-ext-media-tags-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-ext-media-tags-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-ext-superscript-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-ext-superscript-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-ext-tables-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-ext-tables-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-ext-toc-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-ext-toc-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-ext-typographic-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-ext-typographic-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-ext-wikilink-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-ext-wikilink-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-ext-xwiki-macros-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-ext-xwiki-macros-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-ext-yaml-front-matter-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-ext-yaml-front-matter-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-ext-youtube-embedded-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-ext-youtube-embedded-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-html2md-converter-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-html2md-converter-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-jira-converter-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-jira-converter-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-pdf-converter-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-pdf-converter-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-profile-pegdown-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-profile-pegdown-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-util-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-util-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-util-ast-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-util-ast-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-util-builder-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-util-builder-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-util-collection-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-util-collection-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-util-data-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-util-data-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-util-dependency-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-util-dependency-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-util-format-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-util-format-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-util-html-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-util-html-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-util-misc-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-util-misc-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-util-options-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-util-options-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-util-sequence-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-util-sequence-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-util-visitor-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-util-visitor-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: flexmark-youtrack-converter-0.62.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: flexmark-youtrack-converter-0.62.2" level="project" />
+    <orderEntry type="library" name="BSP: fontbox-2.0.16" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: fontbox-2.0.16" level="project" />
+    <orderEntry type="library" name="BSP: graphics2d-0.24" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: graphics2d-0.24" level="project" />
+    <orderEntry type="library" name="BSP: icu4j-59.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: icu4j-59.1" level="project" />
+    <orderEntry type="library" name="BSP: interface-1.0.9" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: interface-1.0.9" level="project" />
+    <orderEntry type="library" name="BSP: izumi-reflect-thirdparty-boopickle-shaded_2.13-2.2.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: izumi-reflect-thirdparty-boopickle-shaded_2.13-2.2.5" level="project" />
+    <orderEntry type="library" name="BSP: izumi-reflect_2.13-2.2.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: izumi-reflect_2.13-2.2.5" level="project" />
+    <orderEntry type="library" name="BSP: jboss-logging-3.4.1.Final" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: jboss-logging-3.4.1.Final" level="project" />
+    <orderEntry type="library" name="BSP: jboss-threads-3.1.0.Final" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: jboss-threads-3.1.0.Final" level="project" />
+    <orderEntry type="library" name="BSP: jline-3.21.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: jline-3.21.0" level="project" />
+    <orderEntry type="library" name="BSP: jna-5.12.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: jna-5.12.1" level="project" />
+    <orderEntry type="library" name="BSP: jsoup-1.11.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: jsoup-1.11.3" level="project" />
+    <orderEntry type="library" name="BSP: lenses_2.13-0.11.11" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: lenses_2.13-0.11.11" level="project" />
+    <orderEntry type="library" name="BSP: mdoc-cli_2.13-2.3.6" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: mdoc-cli_2.13-2.3.6" level="project" />
+    <orderEntry type="library" name="BSP: mdoc-interfaces-2.3.6" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: mdoc-interfaces-2.3.6" level="project" />
+    <orderEntry type="library" name="BSP: mdoc-runtime_2.13-2.3.6" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: mdoc-runtime_2.13-2.3.6" level="project" />
+    <orderEntry type="library" name="BSP: mdoc_2.13-2.3.6" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: mdoc_2.13-2.3.6" level="project" />
+    <orderEntry type="library" name="BSP: metaconfig-core_2.13-0.11.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: metaconfig-core_2.13-0.11.1" level="project" />
+    <orderEntry type="library" name="BSP: metaconfig-pprint_2.13-0.11.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: metaconfig-pprint_2.13-0.11.1" level="project" />
+    <orderEntry type="library" name="BSP: metaconfig-typesafe-config_2.13-0.11.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: metaconfig-typesafe-config_2.13-0.11.1" level="project" />
+    <orderEntry type="library" name="BSP: openhtmltopdf-core-1.0.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: openhtmltopdf-core-1.0.0" level="project" />
+    <orderEntry type="library" name="BSP: openhtmltopdf-jsoup-dom-converter-1.0.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: openhtmltopdf-jsoup-dom-converter-1.0.0" level="project" />
+    <orderEntry type="library" name="BSP: openhtmltopdf-pdfbox-1.0.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: openhtmltopdf-pdfbox-1.0.0" level="project" />
+    <orderEntry type="library" name="BSP: openhtmltopdf-rtl-support-1.0.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: openhtmltopdf-rtl-support-1.0.0" level="project" />
+    <orderEntry type="library" name="BSP: paiges-core_2.13-0.4.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: paiges-core_2.13-0.4.2" level="project" />
+    <orderEntry type="library" name="BSP: parsers_2.13-4.6.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: parsers_2.13-4.6.0" level="project" />
+    <orderEntry type="library" name="BSP: pdfbox-2.0.16" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: pdfbox-2.0.16" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: portable-scala-reflect_2.13-1.1.2" level="project" />
+    <orderEntry type="library" name="BSP: pprint_2.13-0.8.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: pprint_2.13-0.8.0" level="project" />
+    <orderEntry type="library" name="BSP: protobuf-java-3.19.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: protobuf-java-3.19.2" level="project" />
+    <orderEntry type="library" name="BSP: scala-collection-compat_2.13-2.7.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: scala-collection-compat_2.13-2.7.0" level="project" />
+    <orderEntry type="library" name="BSP: scala-compiler-2.13.8" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: scala-compiler-2.13.8" level="project" />
+    <orderEntry type="library" name="BSP: scala-library-2.13.8" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: scala-library-2.13.8" level="project" />
+    <orderEntry type="library" name="BSP: scala-reflect-2.13.8" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: scala-reflect-2.13.8" level="project" />
+    <orderEntry type="module-library">
+      <library name="BSP: scala-sdk-2.13.8" type="Scala">
+        <properties>
+          <language-level>Scala_2_13</language-level>
+          <compiler-classpath>
+            <root url="file://$MODULE_DIR$/../../../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar" />
+            <root url="file://$MODULE_DIR$/../../../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar" />
+            <root url="file://$MODULE_DIR$/../../../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar" />
+            <root url="file://$MODULE_DIR$/../../../../../tmp/.coursier/https/repo1.maven.org/maven2/org/jline/jline/3.21.0/jline-3.21.0.jar" />
+            <root url="file://$MODULE_DIR$/../../../../../tmp/.coursier/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar" />
+          </compiler-classpath>
+        </properties>
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="BSP: scalameta_2.13-4.6.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: scalameta_2.13-4.6.0" level="project" />
+    <orderEntry type="library" name="BSP: scalap-2.13.8" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: scalap-2.13.8" level="project" />
+    <orderEntry type="library" name="BSP: scalapb-runtime_2.13-0.11.11" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: scalapb-runtime_2.13-0.11.11" level="project" />
+    <orderEntry type="library" name="BSP: slf4j-api-2.0.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: slf4j-api-2.0.3" level="project" />
+    <orderEntry type="library" name="BSP: sourcecode_2.13-0.3.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: sourcecode_2.13-0.3.0" level="project" />
+    <orderEntry type="library" name="BSP: trees_2.13-4.6.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: trees_2.13-4.6.0" level="project" />
+    <orderEntry type="library" name="BSP: undertow-core-2.2.19.Final" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: undertow-core-2.2.19.Final" level="project" />
+    <orderEntry type="library" name="BSP: wildfly-client-config-1.0.1.Final" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: wildfly-client-config-1.0.1.Final" level="project" />
+    <orderEntry type="library" name="BSP: wildfly-common-1.5.4.Final" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: wildfly-common-1.5.4.Final" level="project" />
+    <orderEntry type="library" name="BSP: xmpbox-2.0.16" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: xmpbox-2.0.16" level="project" />
+    <orderEntry type="library" name="BSP: xnio-api-3.8.8.Final" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: xnio-api-3.8.8.Final" level="project" />
+    <orderEntry type="library" name="BSP: xnio-nio-3.8.8.Final" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: xnio-nio-3.8.8.Final" level="project" />
+    <orderEntry type="library" name="BSP: zio-internal-macros_2.13-2.0.10" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: zio-internal-macros_2.13-2.0.10" level="project" />
+    <orderEntry type="library" name="BSP: zio-stacktracer_2.13-2.0.10" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: zio-stacktracer_2.13-2.0.10" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: zio-streams_2.13-2.0.10" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: zio-test-sbt_2.13-2.0.10" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: zio-test_2.13-2.0.10" level="project" />
+    <orderEntry type="library" name="BSP: zio_2.13-2.0.10" level="project" />
+    <orderEntry type="library" scope="TEST" name="BSP: zio_2.13-2.0.10" level="project" />
+  </component>
+</module>

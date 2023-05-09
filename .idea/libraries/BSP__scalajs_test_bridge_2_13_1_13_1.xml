@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="BSP: scalajs-test-bridge_2.13-1.13.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scala-js/scalajs-test-bridge_2.13/1.13.1/scalajs-test-bridge_2.13-1.13.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scala-js/scalajs-test-bridge_2.13/1.13.1/scalajs-test-bridge_2.13-1.13.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

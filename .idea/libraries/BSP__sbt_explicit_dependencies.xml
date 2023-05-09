@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="BSP: sbt-explicit-dependencies">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../tmp/.coursier/https/repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.github.cb372/sbt-explicit-dependencies/scala_2.12/sbt_1.0/0.2.10/jars/sbt-explicit-dependencies.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

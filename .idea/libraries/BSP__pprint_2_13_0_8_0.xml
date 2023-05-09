@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="BSP: pprint_2.13-0.8.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/com/lihaoyi/pprint_2.13/0.8.0/pprint_2.13-0.8.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/com/lihaoyi/pprint_2.13/0.8.0/pprint_2.13-0.8.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

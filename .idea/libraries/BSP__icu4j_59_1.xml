@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="BSP: icu4j-59.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/com/ibm/icu/icu4j/59.1/icu4j-59.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/com/ibm/icu/icu4j/59.1/icu4j-59.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

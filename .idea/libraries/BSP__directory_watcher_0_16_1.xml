@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="BSP: directory-watcher-0.16.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/io/methvin/directory-watcher/0.16.1/directory-watcher-0.16.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/io/methvin/directory-watcher/0.16.1/directory-watcher-0.16.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

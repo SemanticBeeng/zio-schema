@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="BSP: flexmark-youtrack-converter-0.62.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-youtrack-converter/0.62.2/flexmark-youtrack-converter-0.62.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-youtrack-converter/0.62.2/flexmark-youtrack-converter-0.62.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

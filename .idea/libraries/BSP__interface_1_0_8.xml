@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="BSP: interface-1.0.8">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/io/get-coursier/interface/1.0.8/interface-1.0.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

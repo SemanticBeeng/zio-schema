@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="BSP: annotations-15.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/jetbrains/annotations/15.0/annotations-15.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/jetbrains/annotations/15.0/annotations-15.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

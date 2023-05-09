@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="BSP: zio-streams_2.12-2.0.4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/dev/zio/zio-streams_2.12/2.0.4/zio-streams_2.12-2.0.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

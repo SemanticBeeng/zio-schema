@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="BSP: sbt-scala-native-0.4.4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scala-native/sbt-scala-native_2.12_1.0/0.4.4/sbt-scala-native-0.4.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

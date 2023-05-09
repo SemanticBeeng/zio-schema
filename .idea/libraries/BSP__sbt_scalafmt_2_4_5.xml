@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="BSP: sbt-scalafmt-2.4.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scalameta/sbt-scalafmt_2.12_1.0/2.4.5/sbt-scalafmt-2.4.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

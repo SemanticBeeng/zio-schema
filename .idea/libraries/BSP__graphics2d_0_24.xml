@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="BSP: graphics2d-0.24">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/de/rototor/pdfbox/graphics2d/0.24/graphics2d-0.24.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/de/rototor/pdfbox/graphics2d/0.24/graphics2d-0.24-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

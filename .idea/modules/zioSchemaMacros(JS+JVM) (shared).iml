@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="zioSchemaMacros(JS+JVM)" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="BSP" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../zio-schema-macros/js/target/scala-2.13/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../zio-schema-macros/js/target/scala-2.13/src_managed/main" />
+    <content url="file://$MODULE_DIR$/../../zio-schema-macros/jvm/target/scala-2.13/src_managed/main" />
+    <content url="file://$MODULE_DIR$/../../zio-schema-macros/shared/src/main/resources" />
+    <content url="file://$MODULE_DIR$/../../zio-schema-macros/shared/src/main/scala" />
+    <content url="file://$MODULE_DIR$/../../zio-schema-macros/shared/src/main/scala-2">
+      <sourceFolder url="file://$MODULE_DIR$/../../zio-schema-macros/shared/src/main/scala-2" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../zio-schema-macros/shared/src/main/scala-2.13" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="BSP: jline-3.21.0" level="project" />
+    <orderEntry type="library" name="BSP: jna-5.9.0" level="project" />
+    <orderEntry type="library" name="BSP: scala-compiler-2.13.8" level="project" />
+    <orderEntry type="library" name="BSP: scala-library-2.13.8" level="project" />
+    <orderEntry type="library" name="BSP: scala-reflect-2.13.8" level="project" />
+    <orderEntry type="module-library">
+      <library name="BSP: scala-sdk-2.13.8" type="Scala">
+        <properties>
+          <language-level>Scala_2_13</language-level>
+          <compiler-classpath>
+            <root url="file://$MODULE_DIR$/../../../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.8/scala-library-2.13.8.jar" />
+            <root url="file://$MODULE_DIR$/../../../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar" />
+            <root url="file://$MODULE_DIR$/../../../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar" />
+            <root url="file://$MODULE_DIR$/../../../../../tmp/.coursier/https/repo1.maven.org/maven2/org/jline/jline/3.21.0/jline-3.21.0.jar" />
+            <root url="file://$MODULE_DIR$/../../../../../tmp/.coursier/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar" />
+          </compiler-classpath>
+        </properties>
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="BSP: scalajs-javalib-1.13.1" level="project" />
+    <orderEntry type="library" name="BSP: scalajs-library_2.13-1.13.1" level="project" />
+    <orderEntry type="module-library">
+      <library name="BSP: zioSchemaMacros(JS+JVM) (shared) dependencies">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../../../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.13.8/1.13.1/scalajs-compiler_2.13.8-1.13.1-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.8/4.6.0/semanticdb-scalac_2.13.8-4.6.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../../../tmp/.coursier/https/repo1.maven.org/maven2/org/typelevel/kind-projector_2.13.8/0.13.2/kind-projector_2.13.8-0.13.2-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="BSP: zioSchemaMacros(JS+JVM) (shared) test dependencies">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>

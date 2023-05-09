@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="BSP: airframe-msgpack_2.12-22.5.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/wvlet/airframe/airframe-msgpack_2.12/22.5.0/airframe-msgpack_2.12-22.5.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,2094 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="bsp 1" modules="zioSchemaZioTest(JS+JVM) (shared),zioSchemaZioTestJS">
+      <option name="higherKinds" value="true" />
+      <option name="existentials" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-opt-warnings" />
+        <parameter value="-Ywarn-extra-implicit" />
+        <parameter value="-Ywarn-unused" />
+        <parameter value="-Ymacro-annotations" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-Xlint:_,-missing-interpolator,-type-parameter-shadow,-infer-any" />
+        <parameter value="-Ypatmat-exhaust-depth" />
+        <parameter value="40" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-Xsource:3.0" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-P:semanticdb:targetroot:/development/projects/00_fp/zio-schema/zio-schema-zio-test/js/target/scala-2.13/meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.13.8/1.13.1/scalajs-compiler_2.13.8-1.13.1.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/typelevel/kind-projector_2.13.8/0.13.2/kind-projector_2.13.8-0.13.2.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.8/4.6.0/semanticdb-scalac_2.13.8-4.6.0.jar" />
+      </plugins>
+    </profile>
+    <profile name="bsp 10" modules="root-build">
+      <option name="deprecationWarnings" value="true" />
+      <parameters>
+        <parameter value="-Wconf:cat=unused-nowarn:s" />
+        <parameter value="-Wconf:cat=unused-nowarn:s" />
+        <parameter value="-Xsource:3" />
+      </parameters>
+    </profile>
+    <profile name="bsp 11" modules="zioSchemaDerivationJVM">
+      <option name="higherKinds" value="true" />
+      <option name="existentials" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-opt-warnings" />
+        <parameter value="-Ywarn-extra-implicit" />
+        <parameter value="-Ywarn-unused" />
+        <parameter value="-Ymacro-annotations" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-Xlint:_,-missing-interpolator,-type-parameter-shadow,-infer-any" />
+        <parameter value="-Ypatmat-exhaust-depth" />
+        <parameter value="40" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-Xsource:3.0" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-P:semanticdb:targetroot:/development/projects/00_fp/zio-schema/zio-schema-derivation/jvm/target/scala-2.13/meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/typelevel/kind-projector_2.13.8/0.13.2/kind-projector_2.13.8-0.13.2.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.8/4.6.0/semanticdb-scalac_2.13.8-4.6.0.jar" />
+      </plugins>
+    </profile>
+    <profile name="bsp 12" modules="zioSchemaZioTest(JS+JVM)-test (shared)">
+      <option name="higherKinds" value="true" />
+      <option name="existentials" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-opt-warnings" />
+        <parameter value="-Ywarn-extra-implicit" />
+        <parameter value="-Ywarn-unused" />
+        <parameter value="-Ymacro-annotations" />
+        <parameter value="-Xlint:_,-missing-interpolator,-type-parameter-shadow,-infer-any" />
+        <parameter value="-Ypatmat-exhaust-depth" />
+        <parameter value="40" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-Xsource:3.0" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-P:semanticdb:targetroot:/development/projects/00_fp/zio-schema/zio-schema-zio-test/js/target/scala-2.13/test-meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.13.8/1.13.1/scalajs-compiler_2.13.8-1.13.1.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/typelevel/kind-projector_2.13.8/0.13.2/kind-projector_2.13.8-0.13.2.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.8/4.6.0/semanticdb-scalac_2.13.8-4.6.0.jar" />
+      </plugins>
+    </profile>
+    <profile name="bsp 13" modules="zioSchemaJsonJVM">
+      <option name="higherKinds" value="true" />
+      <option name="existentials" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-opt-warnings" />
+        <parameter value="-Ywarn-extra-implicit" />
+        <parameter value="-Ywarn-unused" />
+        <parameter value="-Ymacro-annotations" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-Xlint:_,-missing-interpolator,-type-parameter-shadow,-infer-any" />
+        <parameter value="-Ypatmat-exhaust-depth" />
+        <parameter value="40" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-Xsource:3.0" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-P:semanticdb:targetroot:/development/projects/00_fp/zio-schema/zio-schema-json/jvm/target/scala-2.13/meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/typelevel/kind-projector_2.13.8/0.13.2/kind-projector_2.13.8-0.13.2.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.8/4.6.0/semanticdb-scalac_2.13.8-4.6.0.jar" />
+      </plugins>
+    </profile>
+    <profile name="bsp 14" modules="tests(JS+JVM)-test (shared)">
+      <option name="higherKinds" value="true" />
+      <option name="existentials" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-opt-warnings" />
+        <parameter value="-Ywarn-extra-implicit" />
+        <parameter value="-Ywarn-unused" />
+        <parameter value="-Ymacro-annotations" />
+        <parameter value="-Xlint:_,-missing-interpolator,-type-parameter-shadow,-infer-any" />
+        <parameter value="-Ypatmat-exhaust-depth" />
+        <parameter value="40" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-Xsource:3.0" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-P:semanticdb:targetroot:/development/projects/00_fp/zio-schema/tests/js/target/scala-2.13/test-meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.13.8/1.13.1/scalajs-compiler_2.13.8-1.13.1.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/typelevel/kind-projector_2.13.8/0.13.2/kind-projector_2.13.8-0.13.2.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.8/4.6.0/semanticdb-scalac_2.13.8-4.6.0.jar" />
+      </plugins>
+    </profile>
+    <profile name="bsp 15" modules="zioSchemaProtobuf(JS+JVM) (shared),zioSchemaProtobufJS">
+      <option name="higherKinds" value="true" />
+      <option name="existentials" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-opt-warnings" />
+        <parameter value="-Ywarn-extra-implicit" />
+        <parameter value="-Ywarn-unused" />
+        <parameter value="-Ymacro-annotations" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-Xlint:_,-missing-interpolator,-type-parameter-shadow,-infer-any" />
+        <parameter value="-Ypatmat-exhaust-depth" />
+        <parameter value="40" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-Xsource:3.0" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-P:semanticdb:targetroot:/development/projects/00_fp/zio-schema/zio-schema-protobuf/js/target/scala-2.13/meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.13.8/1.13.1/scalajs-compiler_2.13.8-1.13.1.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/typelevel/kind-projector_2.13.8/0.13.2/kind-projector_2.13.8-0.13.2.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.8/4.6.0/semanticdb-scalac_2.13.8-4.6.0.jar" />
+      </plugins>
+    </profile>
+    <profile name="bsp 16" modules="zioSchemaZioTestJVM">
+      <option name="higherKinds" value="true" />
+      <option name="existentials" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-opt-warnings" />
+        <parameter value="-Ywarn-extra-implicit" />
+        <parameter value="-Ywarn-unused" />
+        <parameter value="-Ymacro-annotations" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-Xlint:_,-missing-interpolator,-type-parameter-shadow,-infer-any" />
+        <parameter value="-Ypatmat-exhaust-depth" />
+        <parameter value="40" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-Xsource:3.0" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-P:semanticdb:targetroot:/development/projects/00_fp/zio-schema/zio-schema-zio-test/jvm/target/scala-2.13/meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/typelevel/kind-projector_2.13.8/0.13.2/kind-projector_2.13.8-0.13.2.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.8/4.6.0/semanticdb-scalac_2.13.8-4.6.0.jar" />
+      </plugins>
+    </profile>
+    <profile name="bsp 17" modules="zioSchema(JS+JVM) (shared),zioSchemaJS">
+      <option name="higherKinds" value="true" />
+      <option name="existentials" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-opt-warnings" />
+        <parameter value="-Ywarn-extra-implicit" />
+        <parameter value="-Ywarn-unused" />
+        <parameter value="-Ymacro-annotations" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-Xlint:_,-missing-interpolator,-type-parameter-shadow,-infer-any" />
+        <parameter value="-Ypatmat-exhaust-depth" />
+        <parameter value="40" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-Xsource:3.0" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-P:semanticdb:targetroot:/development/projects/00_fp/zio-schema/zio-schema/js/target/scala-2.13/meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.13.8/1.13.1/scalajs-compiler_2.13.8-1.13.1.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/typelevel/kind-projector_2.13.8/0.13.2/kind-projector_2.13.8-0.13.2.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.8/4.6.0/semanticdb-scalac_2.13.8-4.6.0.jar" />
+      </plugins>
+    </profile>
+    <profile name="bsp 18" modules="zioSchemaProtobuf(JS+JVM)-test (shared)">
+      <option name="higherKinds" value="true" />
+      <option name="existentials" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-opt-warnings" />
+        <parameter value="-Ywarn-extra-implicit" />
+        <parameter value="-Ywarn-unused" />
+        <parameter value="-Ymacro-annotations" />
+        <parameter value="-Xlint:_,-missing-interpolator,-type-parameter-shadow,-infer-any" />
+        <parameter value="-Ypatmat-exhaust-depth" />
+        <parameter value="40" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-Xsource:3.0" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-P:semanticdb:targetroot:/development/projects/00_fp/zio-schema/zio-schema-protobuf/js/target/scala-2.13/test-meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.13.8/1.13.1/scalajs-compiler_2.13.8-1.13.1.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/typelevel/kind-projector_2.13.8/0.13.2/kind-projector_2.13.8-0.13.2.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.8/4.6.0/semanticdb-scalac_2.13.8-4.6.0.jar" />
+      </plugins>
+    </profile>
+    <profile name="bsp 19" modules="benchmarks">
+      <parameters>
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-P:semanticdb:targetroot:/development/projects/00_fp/zio-schema/benchmarks/target/scala-2.13/meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.8/4.6.0/semanticdb-scalac_2.13.8-4.6.0.jar" />
+      </plugins>
+    </profile>
+    <profile name="bsp 2" modules="zioSchemaMacros(JS+JVM)-test (shared)">
+      <option name="higherKinds" value="true" />
+      <option name="existentials" value="true" />
+      <option name="macros" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-opt-warnings" />
+        <parameter value="-Ywarn-extra-implicit" />
+        <parameter value="-Ywarn-unused" />
+        <parameter value="-Ymacro-annotations" />
+        <parameter value="-Xlint:_,-missing-interpolator,-type-parameter-shadow,-infer-any" />
+        <parameter value="-Ypatmat-exhaust-depth" />
+        <parameter value="40" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-Xsource:3.0" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-P:semanticdb:targetroot:/development/projects/00_fp/zio-schema/zio-schema-macros/js/target/scala-2.13/test-meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.13.8/1.13.1/scalajs-compiler_2.13.8-1.13.1.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/typelevel/kind-projector_2.13.8/0.13.2/kind-projector_2.13.8-0.13.2.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.8/4.6.0/semanticdb-scalac_2.13.8-4.6.0.jar" />
+      </plugins>
+    </profile>
+    <profile name="bsp 20" modules="zioSchemaThrift(JS+JVM)-test (shared)">
+      <option name="higherKinds" value="true" />
+      <option name="existentials" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-opt-warnings" />
+        <parameter value="-Ywarn-extra-implicit" />
+        <parameter value="-Ywarn-unused" />
+        <parameter value="-Ymacro-annotations" />
+        <parameter value="-Xlint:_,-missing-interpolator,-type-parameter-shadow,-infer-any" />
+        <parameter value="-Ypatmat-exhaust-depth" />
+        <parameter value="40" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-Xsource:3.0" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-P:semanticdb:targetroot:/development/projects/00_fp/zio-schema/zio-schema-thrift/js/target/scala-2.13/test-meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.13.8/1.13.1/scalajs-compiler_2.13.8-1.13.1.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/typelevel/kind-projector_2.13.8/0.13.2/kind-projector_2.13.8-0.13.2.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.8/4.6.0/semanticdb-scalac_2.13.8-4.6.0.jar" />
+      </plugins>
+    </profile>
+    <profile name="bsp 21" modules="zioSchemaMacros(JS+JVM) (shared),zioSchemaMacrosJS">
+      <option name="higherKinds" value="true" />
+      <option name="existentials" value="true" />
+      <option name="macros" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-opt-warnings" />
+        <parameter value="-Ywarn-extra-implicit" />
+        <parameter value="-Ywarn-unused" />
+        <parameter value="-Ymacro-annotations" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-Xlint:_,-missing-interpolator,-type-parameter-shadow,-infer-any" />
+        <parameter value="-Ypatmat-exhaust-depth" />
+        <parameter value="40" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-Xsource:3.0" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-P:semanticdb:targetroot:/development/projects/00_fp/zio-schema/zio-schema-macros/js/target/scala-2.13/meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.13.8/1.13.1/scalajs-compiler_2.13.8-1.13.1.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/typelevel/kind-projector_2.13.8/0.13.2/kind-projector_2.13.8-0.13.2.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.8/4.6.0/semanticdb-scalac_2.13.8-4.6.0.jar" />
+      </plugins>
+    </profile>
+    <profile name="bsp 22" modules="zioSchemaDerivation(JS+JVM) (shared),zioSchemaDerivationJS">
+      <option name="higherKinds" value="true" />
+      <option name="existentials" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-opt-warnings" />
+        <parameter value="-Ywarn-extra-implicit" />
+        <parameter value="-Ywarn-unused" />
+        <parameter value="-Ymacro-annotations" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-Xlint:_,-missing-interpolator,-type-parameter-shadow,-infer-any" />
+        <parameter value="-Ypatmat-exhaust-depth" />
+        <parameter value="40" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-Xsource:3.0" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-P:semanticdb:targetroot:/development/projects/00_fp/zio-schema/zio-schema-derivation/js/target/scala-2.13/meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.13.8/1.13.1/scalajs-compiler_2.13.8-1.13.1.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/typelevel/kind-projector_2.13.8/0.13.2/kind-projector_2.13.8-0.13.2.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.8/4.6.0/semanticdb-scalac_2.13.8-4.6.0.jar" />
+      </plugins>
+    </profile>
+    <profile name="bsp 23" modules="zioSchemaProtobufJVM">
+      <option name="higherKinds" value="true" />
+      <option name="existentials" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-opt-warnings" />
+        <parameter value="-Ywarn-extra-implicit" />
+        <parameter value="-Ywarn-unused" />
+        <parameter value="-Ymacro-annotations" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-Xlint:_,-missing-interpolator,-type-parameter-shadow,-infer-any" />
+        <parameter value="-Ypatmat-exhaust-depth" />
+        <parameter value="40" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-Xsource:3.0" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-P:semanticdb:targetroot:/development/projects/00_fp/zio-schema/zio-schema-protobuf/jvm/target/scala-2.13/meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/typelevel/kind-projector_2.13.8/0.13.2/kind-projector_2.13.8-0.13.2.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.8/4.6.0/semanticdb-scalac_2.13.8-4.6.0.jar" />
+      </plugins>
+    </profile>
+    <profile name="bsp 24" modules="zioSchema(JS+JVM)-test (shared)">
+      <option name="higherKinds" value="true" />
+      <option name="existentials" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-opt-warnings" />
+        <parameter value="-Ywarn-extra-implicit" />
+        <parameter value="-Ywarn-unused" />
+        <parameter value="-Ymacro-annotations" />
+        <parameter value="-Xlint:_,-missing-interpolator,-type-parameter-shadow,-infer-any" />
+        <parameter value="-Ypatmat-exhaust-depth" />
+        <parameter value="40" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-Xsource:3.0" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-P:semanticdb:targetroot:/development/projects/00_fp/zio-schema/zio-schema/js/target/scala-2.13/test-meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.13.8/1.13.1/scalajs-compiler_2.13.8-1.13.1.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/typelevel/kind-projector_2.13.8/0.13.2/kind-projector_2.13.8-0.13.2.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.8/4.6.0/semanticdb-scalac_2.13.8-4.6.0.jar" />
+      </plugins>
+    </profile>
+    <profile name="bsp 25" modules="zioSchemaExamples(JS+JVM) (shared),zioSchemaExamplesJS">
+      <option name="higherKinds" value="true" />
+      <option name="existentials" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-opt-warnings" />
+        <parameter value="-Ywarn-extra-implicit" />
+        <parameter value="-Ywarn-unused" />
+        <parameter value="-Ymacro-annotations" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-Xlint:_,-missing-interpolator,-type-parameter-shadow,-infer-any" />
+        <parameter value="-Ypatmat-exhaust-depth" />
+        <parameter value="40" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-Xsource:3.0" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-P:semanticdb:targetroot:/development/projects/00_fp/zio-schema/zio-schema-examples/js/target/scala-2.13/meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.13.8/1.13.1/scalajs-compiler_2.13.8-1.13.1.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/typelevel/kind-projector_2.13.8/0.13.2/kind-projector_2.13.8-0.13.2.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.8/4.6.0/semanticdb-scalac_2.13.8-4.6.0.jar" />
+      </plugins>
+    </profile>
+    <profile name="bsp 26" modules="zioSchemaThrift(JS+JVM) (shared),zioSchemaThriftJS">
+      <option name="higherKinds" value="true" />
+      <option name="existentials" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-opt-warnings" />
+        <parameter value="-Ywarn-extra-implicit" />
+        <parameter value="-Ywarn-unused" />
+        <parameter value="-Ymacro-annotations" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-Xlint:_,-missing-interpolator,-type-parameter-shadow,-infer-any" />
+        <parameter value="-Ypatmat-exhaust-depth" />
+        <parameter value="40" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-Xsource:3.0" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-P:semanticdb:targetroot:/development/projects/00_fp/zio-schema/zio-schema-thrift/js/target/scala-2.13/meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.13.8/1.13.1/scalajs-compiler_2.13.8-1.13.1.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/typelevel/kind-projector_2.13.8/0.13.2/kind-projector_2.13.8-0.13.2.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.8/4.6.0/semanticdb-scalac_2.13.8-4.6.0.jar" />
+      </plugins>
+    </profile>
+    <profile name="bsp 27" modules="zioSchemaMacrosJVM">
+      <option name="higherKinds" value="true" />
+      <option name="existentials" value="true" />
+      <option name="macros" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-opt-warnings" />
+        <parameter value="-Ywarn-extra-implicit" />
+        <parameter value="-Ywarn-unused" />
+        <parameter value="-Ymacro-annotations" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-Xlint:_,-missing-interpolator,-type-parameter-shadow,-infer-any" />
+        <parameter value="-Ypatmat-exhaust-depth" />
+        <parameter value="40" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-Xsource:3.0" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-P:semanticdb:targetroot:/development/projects/00_fp/zio-schema/zio-schema-macros/jvm/target/scala-2.13/meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/typelevel/kind-projector_2.13.8/0.13.2/kind-projector_2.13.8-0.13.2.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.8/4.6.0/semanticdb-scalac_2.13.8-4.6.0.jar" />
+      </plugins>
+    </profile>
+    <profile name="bsp 28" modules="zioSchemaThriftJVM">
+      <option name="higherKinds" value="true" />
+      <option name="existentials" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-opt-warnings" />
+        <parameter value="-Ywarn-extra-implicit" />
+        <parameter value="-Ywarn-unused" />
+        <parameter value="-Ymacro-annotations" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-Xlint:_,-missing-interpolator,-type-parameter-shadow,-infer-any" />
+        <parameter value="-Ypatmat-exhaust-depth" />
+        <parameter value="40" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-Xsource:3.0" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-P:semanticdb:targetroot:/development/projects/00_fp/zio-schema/zio-schema-thrift/jvm/target/scala-2.13/meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/typelevel/kind-projector_2.13.8/0.13.2/kind-projector_2.13.8-0.13.2.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.8/4.6.0/semanticdb-scalac_2.13.8-4.6.0.jar" />
+      </plugins>
+    </profile>
+    <profile name="bsp 29" modules="tests(JS+JVM) (shared),testsJS">
+      <option name="higherKinds" value="true" />
+      <option name="existentials" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-opt-warnings" />
+        <parameter value="-Ywarn-extra-implicit" />
+        <parameter value="-Ywarn-unused" />
+        <parameter value="-Ymacro-annotations" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-Xlint:_,-missing-interpolator,-type-parameter-shadow,-infer-any" />
+        <parameter value="-Ypatmat-exhaust-depth" />
+        <parameter value="40" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-Xsource:3.0" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-P:semanticdb:targetroot:/development/projects/00_fp/zio-schema/tests/js/target/scala-2.13/meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.13.8/1.13.1/scalajs-compiler_2.13.8-1.13.1.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/typelevel/kind-projector_2.13.8/0.13.2/kind-projector_2.13.8-0.13.2.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.8/4.6.0/semanticdb-scalac_2.13.8-4.6.0.jar" />
+      </plugins>
+    </profile>
+    <profile name="bsp 3" modules="zioSchemaOptics(JS+JVM) (shared),zioSchemaOpticsJS">
+      <option name="higherKinds" value="true" />
+      <option name="existentials" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-opt-warnings" />
+        <parameter value="-Ywarn-extra-implicit" />
+        <parameter value="-Ywarn-unused" />
+        <parameter value="-Ymacro-annotations" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-Xlint:_,-missing-interpolator,-type-parameter-shadow,-infer-any" />
+        <parameter value="-Ypatmat-exhaust-depth" />
+        <parameter value="40" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-Xsource:3.0" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-P:semanticdb:targetroot:/development/projects/00_fp/zio-schema/zio-schema-optics/js/target/scala-2.13/meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.13.8/1.13.1/scalajs-compiler_2.13.8-1.13.1.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/typelevel/kind-projector_2.13.8/0.13.2/kind-projector_2.13.8-0.13.2.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.8/4.6.0/semanticdb-scalac_2.13.8-4.6.0.jar" />
+      </plugins>
+    </profile>
+    <profile name="bsp 30" modules="zioSchemaExamplesJVM">
+      <option name="higherKinds" value="true" />
+      <option name="existentials" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-opt-warnings" />
+        <parameter value="-Ywarn-extra-implicit" />
+        <parameter value="-Ywarn-unused" />
+        <parameter value="-Ymacro-annotations" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-Xlint:_,-missing-interpolator,-type-parameter-shadow,-infer-any" />
+        <parameter value="-Ypatmat-exhaust-depth" />
+        <parameter value="40" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-Xsource:3.0" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-P:semanticdb:targetroot:/development/projects/00_fp/zio-schema/zio-schema-examples/jvm/target/scala-2.13/meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/typelevel/kind-projector_2.13.8/0.13.2/kind-projector_2.13.8-0.13.2.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.8/4.6.0/semanticdb-scalac_2.13.8-4.6.0.jar" />
+      </plugins>
+    </profile>
+    <profile name="bsp 31" modules="zioSchemaAvroJVM">
+      <option name="higherKinds" value="true" />
+      <option name="existentials" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-opt-warnings" />
+        <parameter value="-Ywarn-extra-implicit" />
+        <parameter value="-Ywarn-unused" />
+        <parameter value="-Ymacro-annotations" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-Xlint:_,-missing-interpolator,-type-parameter-shadow,-infer-any" />
+        <parameter value="-Ypatmat-exhaust-depth" />
+        <parameter value="40" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-Xsource:3.0" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-P:semanticdb:targetroot:/development/projects/00_fp/zio-schema/zio-schema-avro/jvm/target/scala-2.13/meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/typelevel/kind-projector_2.13.8/0.13.2/kind-projector_2.13.8-0.13.2.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.8/4.6.0/semanticdb-scalac_2.13.8-4.6.0.jar" />
+      </plugins>
+    </profile>
+    <profile name="bsp 32" modules="zioSchemaDerivation(JS+JVM)-test (shared)">
+      <option name="higherKinds" value="true" />
+      <option name="existentials" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-opt-warnings" />
+        <parameter value="-Ywarn-extra-implicit" />
+        <parameter value="-Ywarn-unused" />
+        <parameter value="-Ymacro-annotations" />
+        <parameter value="-Xlint:_,-missing-interpolator,-type-parameter-shadow,-infer-any" />
+        <parameter value="-Ypatmat-exhaust-depth" />
+        <parameter value="40" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-Xsource:3.0" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-P:semanticdb:targetroot:/development/projects/00_fp/zio-schema/zio-schema-derivation/js/target/scala-2.13/test-meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.13.8/1.13.1/scalajs-compiler_2.13.8-1.13.1.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/typelevel/kind-projector_2.13.8/0.13.2/kind-projector_2.13.8-0.13.2.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.8/4.6.0/semanticdb-scalac_2.13.8-4.6.0.jar" />
+      </plugins>
+    </profile>
+    <profile name="bsp 33" modules="zioSchemaAvro(JS+JVM)-test (shared)">
+      <option name="higherKinds" value="true" />
+      <option name="existentials" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-opt-warnings" />
+        <parameter value="-Ywarn-extra-implicit" />
+        <parameter value="-Ywarn-unused" />
+        <parameter value="-Ymacro-annotations" />
+        <parameter value="-Xlint:_,-missing-interpolator,-type-parameter-shadow,-infer-any" />
+        <parameter value="-Ypatmat-exhaust-depth" />
+        <parameter value="40" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-Xsource:3.0" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-P:semanticdb:targetroot:/development/projects/00_fp/zio-schema/zio-schema-avro/js/target/scala-2.13/test-meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.13.8/1.13.1/scalajs-compiler_2.13.8-1.13.1.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/typelevel/kind-projector_2.13.8/0.13.2/kind-projector_2.13.8-0.13.2.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.8/4.6.0/semanticdb-scalac_2.13.8-4.6.0.jar" />
+      </plugins>
+    </profile>
+    <profile name="bsp 34" modules="zioSchemaOpticsJVM">
+      <option name="higherKinds" value="true" />
+      <option name="existentials" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-opt-warnings" />
+        <parameter value="-Ywarn-extra-implicit" />
+        <parameter value="-Ywarn-unused" />
+        <parameter value="-Ymacro-annotations" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-Xlint:_,-missing-interpolator,-type-parameter-shadow,-infer-any" />
+        <parameter value="-Ypatmat-exhaust-depth" />
+        <parameter value="40" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-Xsource:3.0" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-P:semanticdb:targetroot:/development/projects/00_fp/zio-schema/zio-schema-optics/jvm/target/scala-2.13/meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/typelevel/kind-projector_2.13.8/0.13.2/kind-projector_2.13.8-0.13.2.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.8/4.6.0/semanticdb-scalac_2.13.8-4.6.0.jar" />
+      </plugins>
+    </profile>
+    <profile name="bsp 35" modules="root">
+      <parameters>
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-P:semanticdb:targetroot:/development/projects/00_fp/zio-schema/target/scala-2.13/meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.8/4.6.0/semanticdb-scalac_2.13.8-4.6.0.jar" />
+      </plugins>
+    </profile>
+    <profile name="bsp 36" modules="testsJVM">
+      <option name="higherKinds" value="true" />
+      <option name="existentials" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-opt-warnings" />
+        <parameter value="-Ywarn-extra-implicit" />
+        <parameter value="-Ywarn-unused" />
+        <parameter value="-Ymacro-annotations" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-Xlint:_,-missing-interpolator,-type-parameter-shadow,-infer-any" />
+        <parameter value="-Ypatmat-exhaust-depth" />
+        <parameter value="40" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-Xsource:3.0" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-P:semanticdb:targetroot:/development/projects/00_fp/zio-schema/tests/jvm/target/scala-2.13/meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/typelevel/kind-projector_2.13.8/0.13.2/kind-projector_2.13.8-0.13.2.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.8/4.6.0/semanticdb-scalac_2.13.8-4.6.0.jar" />
+      </plugins>
+    </profile>
+    <profile name="bsp 37" modules="zioSchemaMsgPack(JS+JVM)-test (shared)">
+      <option name="higherKinds" value="true" />
+      <option name="existentials" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-opt-warnings" />
+        <parameter value="-Ywarn-extra-implicit" />
+        <parameter value="-Ywarn-unused" />
+        <parameter value="-Ymacro-annotations" />
+        <parameter value="-Xlint:_,-missing-interpolator,-type-parameter-shadow,-infer-any" />
+        <parameter value="-Ypatmat-exhaust-depth" />
+        <parameter value="40" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-Xsource:3.0" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-P:semanticdb:targetroot:/development/projects/00_fp/zio-schema/zio-schema-msg-pack/js/target/scala-2.13/test-meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.13.8/1.13.1/scalajs-compiler_2.13.8-1.13.1.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/typelevel/kind-projector_2.13.8/0.13.2/kind-projector_2.13.8-0.13.2.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.8/4.6.0/semanticdb-scalac_2.13.8-4.6.0.jar" />
+      </plugins>
+    </profile>
+    <profile name="bsp 38" modules="zioSchemaJson(JS+JVM)-test (shared)">
+      <option name="higherKinds" value="true" />
+      <option name="existentials" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-opt-warnings" />
+        <parameter value="-Ywarn-extra-implicit" />
+        <parameter value="-Ywarn-unused" />
+        <parameter value="-Ymacro-annotations" />
+        <parameter value="-Xlint:_,-missing-interpolator,-type-parameter-shadow,-infer-any" />
+        <parameter value="-Ypatmat-exhaust-depth" />
+        <parameter value="40" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-Xsource:3.0" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-P:semanticdb:targetroot:/development/projects/00_fp/zio-schema/zio-schema-json/js/target/scala-2.13/test-meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.13.8/1.13.1/scalajs-compiler_2.13.8-1.13.1.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/typelevel/kind-projector_2.13.8/0.13.2/kind-projector_2.13.8-0.13.2.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.8/4.6.0/semanticdb-scalac_2.13.8-4.6.0.jar" />
+      </plugins>
+    </profile>
+    <profile name="bsp 39" modules="zioSchemaOptics(JS+JVM)-test (shared)">
+      <option name="higherKinds" value="true" />
+      <option name="existentials" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-opt-warnings" />
+        <parameter value="-Ywarn-extra-implicit" />
+        <parameter value="-Ywarn-unused" />
+        <parameter value="-Ymacro-annotations" />
+        <parameter value="-Xlint:_,-missing-interpolator,-type-parameter-shadow,-infer-any" />
+        <parameter value="-Ypatmat-exhaust-depth" />
+        <parameter value="40" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-Xsource:3.0" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-P:semanticdb:targetroot:/development/projects/00_fp/zio-schema/zio-schema-optics/js/target/scala-2.13/test-meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.13.8/1.13.1/scalajs-compiler_2.13.8-1.13.1.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/typelevel/kind-projector_2.13.8/0.13.2/kind-projector_2.13.8-0.13.2.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.8/4.6.0/semanticdb-scalac_2.13.8-4.6.0.jar" />
+      </plugins>
+    </profile>
+    <profile name="bsp 4" modules="zioSchemaJson(JS+JVM) (shared),zioSchemaJsonJS">
+      <option name="higherKinds" value="true" />
+      <option name="existentials" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-opt-warnings" />
+        <parameter value="-Ywarn-extra-implicit" />
+        <parameter value="-Ywarn-unused" />
+        <parameter value="-Ymacro-annotations" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-Xlint:_,-missing-interpolator,-type-parameter-shadow,-infer-any" />
+        <parameter value="-Ypatmat-exhaust-depth" />
+        <parameter value="40" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-Xsource:3.0" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-P:semanticdb:targetroot:/development/projects/00_fp/zio-schema/zio-schema-json/js/target/scala-2.13/meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.13.8/1.13.1/scalajs-compiler_2.13.8-1.13.1.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/typelevel/kind-projector_2.13.8/0.13.2/kind-projector_2.13.8-0.13.2.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.8/4.6.0/semanticdb-scalac_2.13.8-4.6.0.jar" />
+      </plugins>
+    </profile>
+    <profile name="bsp 40" modules="zioSchemaJVM">
+      <option name="higherKinds" value="true" />
+      <option name="existentials" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-opt-warnings" />
+        <parameter value="-Ywarn-extra-implicit" />
+        <parameter value="-Ywarn-unused" />
+        <parameter value="-Ymacro-annotations" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-Xlint:_,-missing-interpolator,-type-parameter-shadow,-infer-any" />
+        <parameter value="-Ypatmat-exhaust-depth" />
+        <parameter value="40" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-Xsource:3.0" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-P:semanticdb:targetroot:/development/projects/00_fp/zio-schema/zio-schema/jvm/target/scala-2.13/meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/typelevel/kind-projector_2.13.8/0.13.2/kind-projector_2.13.8-0.13.2.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.8/4.6.0/semanticdb-scalac_2.13.8-4.6.0.jar" />
+      </plugins>
+    </profile>
+    <profile name="bsp 5" modules="docs">
+      <option name="higherKinds" value="true" />
+      <option name="existentials" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-opt-warnings" />
+        <parameter value="-Ywarn-extra-implicit" />
+        <parameter value="-Ywarn-unused" />
+        <parameter value="-Ymacro-annotations" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-Xlint:_,-missing-interpolator,-type-parameter-shadow,-infer-any" />
+        <parameter value="-Ypatmat-exhaust-depth" />
+        <parameter value="40" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-Xsource:3.0" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-P:semanticdb:targetroot:/development/projects/00_fp/zio-schema/zio-schema-docs/target/scala-2.13/meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/typelevel/kind-projector_2.13.8/0.13.2/kind-projector_2.13.8-0.13.2.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.8/4.6.0/semanticdb-scalac_2.13.8-4.6.0.jar" />
+      </plugins>
+    </profile>
+    <profile name="bsp 6" modules="zioSchemaExamples(JS+JVM)-test (shared)">
+      <option name="higherKinds" value="true" />
+      <option name="existentials" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-opt-warnings" />
+        <parameter value="-Ywarn-extra-implicit" />
+        <parameter value="-Ywarn-unused" />
+        <parameter value="-Ymacro-annotations" />
+        <parameter value="-Xlint:_,-missing-interpolator,-type-parameter-shadow,-infer-any" />
+        <parameter value="-Ypatmat-exhaust-depth" />
+        <parameter value="40" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-Xsource:3.0" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-P:semanticdb:targetroot:/development/projects/00_fp/zio-schema/zio-schema-examples/js/target/scala-2.13/test-meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.13.8/1.13.1/scalajs-compiler_2.13.8-1.13.1.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/typelevel/kind-projector_2.13.8/0.13.2/kind-projector_2.13.8-0.13.2.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.8/4.6.0/semanticdb-scalac_2.13.8-4.6.0.jar" />
+      </plugins>
+    </profile>
+    <profile name="bsp 7" modules="zioSchemaMsgPackJVM">
+      <option name="higherKinds" value="true" />
+      <option name="existentials" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-opt-warnings" />
+        <parameter value="-Ywarn-extra-implicit" />
+        <parameter value="-Ywarn-unused" />
+        <parameter value="-Ymacro-annotations" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-Xlint:_,-missing-interpolator,-type-parameter-shadow,-infer-any" />
+        <parameter value="-Ypatmat-exhaust-depth" />
+        <parameter value="40" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-Xsource:3.0" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-P:semanticdb:targetroot:/development/projects/00_fp/zio-schema/zio-schema-msg-pack/jvm/target/scala-2.13/meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/typelevel/kind-projector_2.13.8/0.13.2/kind-projector_2.13.8-0.13.2.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.8/4.6.0/semanticdb-scalac_2.13.8-4.6.0.jar" />
+      </plugins>
+    </profile>
+    <profile name="bsp 8" modules="zioSchemaAvro(JS+JVM) (shared),zioSchemaAvroJS">
+      <option name="higherKinds" value="true" />
+      <option name="existentials" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-opt-warnings" />
+        <parameter value="-Ywarn-extra-implicit" />
+        <parameter value="-Ywarn-unused" />
+        <parameter value="-Ymacro-annotations" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-Xlint:_,-missing-interpolator,-type-parameter-shadow,-infer-any" />
+        <parameter value="-Ypatmat-exhaust-depth" />
+        <parameter value="40" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-Xsource:3.0" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-P:semanticdb:targetroot:/development/projects/00_fp/zio-schema/zio-schema-avro/js/target/scala-2.13/meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.13.8/1.13.1/scalajs-compiler_2.13.8-1.13.1.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/typelevel/kind-projector_2.13.8/0.13.2/kind-projector_2.13.8-0.13.2.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.8/4.6.0/semanticdb-scalac_2.13.8-4.6.0.jar" />
+      </plugins>
+    </profile>
+    <profile name="bsp 9" modules="zioSchemaMsgPack(JS+JVM) (shared),zioSchemaMsgPackJS">
+      <option name="higherKinds" value="true" />
+      <option name="existentials" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-opt-warnings" />
+        <parameter value="-Ywarn-extra-implicit" />
+        <parameter value="-Ywarn-unused" />
+        <parameter value="-Ymacro-annotations" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-Xlint:_,-missing-interpolator,-type-parameter-shadow,-infer-any" />
+        <parameter value="-Ypatmat-exhaust-depth" />
+        <parameter value="40" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-Xsource:3.0" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-P:semanticdb:synthetics:on" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-P:semanticdb:targetroot:/development/projects/00_fp/zio-schema/zio-schema-msg-pack/js/target/scala-2.13/meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.13.8/1.13.1/scalajs-compiler_2.13.8-1.13.1.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/typelevel/kind-projector_2.13.8/0.13.2/kind-projector_2.13.8-0.13.2.jar" />
+        <plugin path="$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.8/4.6.0/semanticdb-scalac_2.13.8-4.6.0.jar" />
+      </plugins>
+    </profile>
+  </component>
+</project>

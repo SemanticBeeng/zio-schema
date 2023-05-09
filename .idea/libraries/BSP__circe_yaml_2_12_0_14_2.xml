@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="BSP: circe-yaml_2.12-0.14.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../tmp/.coursier/https/repo1.maven.org/maven2/io/circe/circe-yaml_2.12/0.14.2/circe-yaml_2.12-0.14.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
